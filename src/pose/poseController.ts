@@ -85,6 +85,7 @@ export class PoseController {
         } 
       });
       
+      
       // Stop the test stream
       stream.getTracks().forEach(track => track.stop());
 
